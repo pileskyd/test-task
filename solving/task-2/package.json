@@ -1,0 +1,24 @@
+{
+  "name": "farpost-tech-test",
+  "version": "1.0.0",
+  "description": "Tech test: JavaScript",
+  "main": "backend/bin/www",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node bin/www",
+    "dev": "cross-env NODE_ENV=local nodemon bin/www"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "~1.19.0",
+    "cookie-parser": "~1.4.5",
+    "cors": "^2.8.5",
+    "debug": "~4.3.2",
+    "express": "~4.17.1",
+    "sequelize": "~6.7.0",
+    "pg": "~8.7.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.13"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "port": 3010,
+  "db": {
+    "main": {
+      "connection": "postgres://postgres:PostgreAdmin@localhost:5432/testtask?debug=true"
+    }
+  }
+}
