@@ -20,13 +20,11 @@ module.exports = function (db) {
         )
       )[0];
 
-      console.log(result);
-
       if (!result) return res.status(200).json([]);
       return res.status(200).json(result);
     } catch (error) {
       return res.status(501).json({
-        message: "Method is not currently implemented!",
+        message: "Error in processing the method",
       });
     }
   });
